@@ -1,0 +1,29 @@
+.main {
+  display: block;
+  text-align: center;
+  border: solid 2px black;
+  width: 200px;
+  padding: 13px;
+  margin: 100px;
+  border-radius: 10px;
+}
+.screen {
+  border: solid 1px black;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+.row1 {
+  display: flex;
+}
+button {
+  padding: 20px;
+  margin: 2px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 800;
+}
+button:hover {
+  color: white;
+  background-color: rgb(122, 122, 233);
+}

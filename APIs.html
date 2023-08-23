@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- storage APIS -->
+
+    <p id="api">This is your name : </p>
+    <script>
+        function storage()
+        {
+            sessionStorage.setItem("name", "Kaleem Sarwar");
+            document.getElementById("api").innerHTML = sessionStorage.getItem("name");
+            document.getElementById("api").innerHTML=localStorage.removeItem("name");
+        }
+      
+        
+    </script>
+    <button type="submit" onclick="storage()">click me!</button>
+    
+</body>
+</html>
